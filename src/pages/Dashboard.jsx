@@ -14,7 +14,6 @@ export default function Dashboard() {
   const [selectedPackage, setSelectedPackage] = useState(null);
 
   const packages = [
-    { id: 99, name: 'Test Payment ₹1', price: '₹ 1', count: 1, test: true },
     { id: 1, name: '5000 Instagram Followers', price: '₹ 1,999', count: 5000 },
     { id: 2, name: '10000 Instagram Followers', price: '₹ 1,997', count: 10000, offer: true },
     { id: 3, name: '80000 Instagram Followers', price: '₹ 14,998', count: 80000 },
