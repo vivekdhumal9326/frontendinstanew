@@ -17,9 +17,9 @@ export default function Dashboard() {
     { id: 1, name: '5000 Instagram Followers', price: '₹ 700', count: 5000 },
     { id: 2, name: '10000 Instagram Followers', price: '₹ 1,500', count: 10000, offer: true },
     { id: 3, name: '50000 Instagram Followers', price: '₹ 7,500', count: 50000 },
-    { id: 4, name: '80000 Instagram Followers', price: '₹ 15,000', count: 80000 }
-    { id: 5, name: '100000 Instagram Followers', price: '₹ 21,000', count: 100000}
-    { id: 5, name: '1000 Instagram Views', price: '₹ 500', count: 1000}
+    { id: 4, name: '80000 Instagram Followers', price: '₹ 15,000', count: 80000 },
+    { id: 5, name: '100000 Instagram Followers', price: '₹ 21,000', count: 100000},
+    { id: 6, name: '1000 Instagram Views', price: '₹ 500', count: 1000}
     
   ];
 
