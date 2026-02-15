@@ -14,10 +14,11 @@ export default function Dashboard() {
   const [selectedPackage, setSelectedPackage] = useState(null);
 
   const packages = [
-    { id: 1, name: '5000 Instagram Followers', price: '₹ 1,999', count: 5000 },
-    { id: 2, name: '10000 Instagram Followers', price: '₹ 1,997', count: 10000, offer: true },
-    { id: 3, name: '80000 Instagram Followers', price: '₹ 14,998', count: 80000 },
-    { id: 4, name: '100000 Instagram Followers', price: '₹ 18,998', count: 100000 }
+    { id: 1, name: '5000 Instagram Followers', price: '₹ 700', count: 5000 },
+    { id: 2, name: '10000 Instagram Followers', price: '₹ 1,500', count: 10000, offer: true },
+    { id: 3, name: '50000 Instagram Followers', price: '₹ 7,500', count: 50000 },
+    { id: 4, name: '80000 Instagram Followers', price: '₹ 15,000', count: 80000 }
+    { id: 5, name: '100000 Instagram Followers', price: '₹ 21,000', count: 100000}
   ];
 
   const handleOrderClick = (pkg) => {
