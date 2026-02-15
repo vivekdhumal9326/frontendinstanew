@@ -25,7 +25,7 @@ export default function Dashboard() {
     { id: 10, name: '15000 Instagram Views', price: '₹ 2,650', count: 15000},
     { id: 11, name: '20000 Instagram Views', price: '₹ 3,550', count: 1000}, 
     { id: 12, name: '50000 Instagram Views', price: '₹ 5,900', count: 50000},
-    { id: 6, name: '100000 Instagram Views', price: '₹ 12,000', count: 100000}
+    { id: 13, name: '100000 Instagram Views', price: '₹ 12,000', count: 100000}
     
     
   ];
