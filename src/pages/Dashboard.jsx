@@ -29,7 +29,7 @@ export default function Dashboard() {
     { id: 14, name: '1000 Instagram Likes', price: '₹ 400', count: 1000},
     { id: 15, name: '5000 Instagram Likes', price: '₹ 760', count: 5000},
     { id: 16, name: '10000 Instagram Likes', price: '₹ 1500', count: 10000},
-    { id: 17, name: '20000 Instagram Likes', price: '₹ 2730', count: 20000, offer:true },
+    { id: 17, name: '20000 Instagram Likes', price: '₹ 2730', count: 20000, Limited offer:true },
     { id: 18, name: '50000 Instagram Likes', price: '₹ 5000', count: 50000},
     { id: 19, name: '100000 Instagram Likes', price: '₹ 10000', count: 100000}  
     
