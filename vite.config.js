@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server : {
     proxy : {
-      '/api' : 'https://backendinsta-s0nf.onrender.com',
+      '/api' : 'https://backendinsta-3.onrender.com',
     },
   },
 })
