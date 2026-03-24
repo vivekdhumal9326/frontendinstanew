@@ -1,46 +1,42 @@
-import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="app">
 
-      <h1 style={{ textAlign: "center" }}>Social Media Services</h1>
+      <header className="header">
+        <h1>SMM Panel</h1>
+      </header>
 
-      {/* Instagram Section */}
-      <div style={{
-        background: "linear-gradient(45deg,#f58529,#dd2a7b)",
-        padding: "20px",
-        margin: "20px",
-        borderRadius: "10px",
-        color: "white"
-      }}>
-        <h2>Instagram</h2>
-        <p>Followers | Likes | Views</p>
-      </div>
+      {/* Instagram */}
+      <section className="section">
+        <h2 className="insta">Instagram Services</h2>
+        <div className="grid">
+          <div className="card">Followers</div>
+          <div className="card">Likes</div>
+          <div className="card">Views</div>
+        </div>
+      </section>
 
-      {/* YouTube Section */}
-      <div style={{
-        background: "#ff0000",
-        padding: "20px",
-        margin: "20px",
-        borderRadius: "10px",
-        color: "white"
-      }}>
-        <h2>YouTube</h2>
-        <p>Subscribers | Watch Time | Views</p>
-      </div>
+      {/* YouTube */}
+      <section className="section">
+        <h2 className="yt">YouTube Services</h2>
+        <div className="grid">
+          <div className="card">Subscribers</div>
+          <div className="card">Views</div>
+          <div className="card">Watch Time</div>
+        </div>
+      </section>
 
-      {/* Facebook Section */}
-      <div style={{
-        background: "#1877f2",
-        padding: "20px",
-        margin: "20px",
-        borderRadius: "10px",
-        color: "white"
-      }}>
-        <h2>Facebook</h2>
-        <p>Likes | Followers | Engagement</p>
-      </div>
+      {/* Facebook */}
+      <section className="section">
+        <h2 className="fb">Facebook Services</h2>
+        <div className="grid">
+          <div className="card">Page Likes</div>
+          <div className="card">Followers</div>
+          <div className="card">Engagement</div>
+        </div>
+      </section>
 
     </div>
   );
